@@ -11,9 +11,6 @@ header{
   color: white;
   text-align: center;
 }
-.header-content h1{
-  margin: 0;
-}
 .nav_menu ul{
   list-style-type: none;
   background-color: grey;
@@ -39,41 +36,4 @@ footer{
   text-align: center;
   padding: 10px 0;
   color: white;
-}
-.content{
-  display: flex;
-  margin: 20px;
-}
-.main-content{
-  flex: 3;
-  padding: 20px;
-}
-.sidebar{
-  flex: 1;
-  background: #e9f5f1;
-  padding: 20px;
-  border-left: 2px solid #66cdaa;
-}
-.float-image{
-  float: left;
-  margin: 10px 20px 10px 0;
-  width: 250px;
-  height: auto;
-}
-h2{
-  color: #2e8b57;
-}
-.sidebar ul{
-  list-style: none;
-  padding: 0;
-}
-.sidebar li{
-  margin: 10px 0;
-}
-.sidebar a{
-  text-decoration: none;
-  color: #238b57;
-}
-.sidebar a:hover{
-  text-decoration: underline;
 }
