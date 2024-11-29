@@ -45,8 +45,8 @@ footer{
   margin: 20px;
 }
 .main-content{
-  flex: 3
-  padding: 20px
+  flex: 3;
+  padding: 20px;
 }
 .sidebar{
   flex: 1;
