@@ -84,6 +84,11 @@ header img {
 
 /* the styles for the main content */
 main {
+	background-image: url("image/solarsystem.webp");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
 	display: flex;
 	justify-content: space-between;
 }
