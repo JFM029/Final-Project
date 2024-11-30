@@ -96,8 +96,8 @@ main {
 	padding-bottom: .5em;
 }
 #right img{
-	max-width: 40%;
-	min-width: 140px;
+	max-width: 20%;
+	min-width: 90px;
 	margin: .5em 0 1em 1em;
 	border: 1px solid black;
 }
