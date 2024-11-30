@@ -92,6 +92,15 @@ main {
 	order: 2;
 	padding: 0 2.5% 20px 2.5%;
 }
+#right p{
+	padding-bottom: .5em;
+}
+#right img{
+	max-width: 40%;
+	min-width: 140px;
+	margin: .5em 0 1em 1em;
+	border: 1px solid black;
+}
 /* the styles for the section */
 section {
 	flex-basis: 60%;
