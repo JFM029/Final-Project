@@ -150,7 +150,7 @@ article h3 {
 article img {
 	float: right;
 	max-width: 20%;
-	min-width: 100px;
+	height: auto;
 	margin: .5em 0 1em 1em;
 	border: 1px solid black;
 }
