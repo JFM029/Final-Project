@@ -87,11 +87,6 @@ header img {
 
 /* the styles for the main content */
 main {
-	background-image: url("image/solarsystem.webp");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: center;
 	display: flex;
 	justify-content: space-between;
 }
@@ -135,7 +130,6 @@ section li {
 article {
 	padding: .5em 0;
 	border-top: 2px solid #800000;
-	border-bottom: 2px solid #800000;
 }
 article h2 {
 	padding-top: 0;
