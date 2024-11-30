@@ -88,7 +88,7 @@ main {
 	justify-content: space-between;
 }
 #right{
-	flex-basis: 30%;
+	flex-basis: 50%;
 	order: 2;
 	padding: 0 2.5% 20px 2.5%;
 }
@@ -104,7 +104,7 @@ main {
 }
 /* the styles for the section */
 section {
-	flex-basis: 40%;
+	flex-basis: 50%;
 	order: 1;
 	padding: 0 2.5% 20px 2.5%;
 }
