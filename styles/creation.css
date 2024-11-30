@@ -77,4 +77,14 @@ header img {
 #nav_menu ul li ul {
 	width: 20%;
 }
+footer {
+	background-color: #931420;
+	clear: both;
+
+}
+footer p {
+	text-align: center;
+	color: white;
+	padding: 1em 0;
+}
 
