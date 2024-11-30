@@ -56,12 +56,15 @@ header img {
 	text-align: center;
 	padding: 1em 0;
 	text-decoration: none;
-	background-color: #800000;
-	color: white;
+	background-color: #2c2c54;
+	color: #c0c0c0;
 	font-weight: bold;
 }
 #nav_menu a.current {
 	color: yellow;
+}
+#nav_menu a:hover{
+	color: #ffd700;
 }
 #nav_menu ul ul {
 	width: 100%;
