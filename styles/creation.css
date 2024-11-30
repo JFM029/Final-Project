@@ -15,6 +15,10 @@ body {
 	border-image: linear-gradient(to right, #ffdd57, #004e92) 1;
 	background-color: #fffded;
 }
+a:focus, a:hover {
+	font-style: italic;
+}
+/* the styles for the header */
 header {
 	padding: 1.5em 0 2em 0;
 	border-bottom: 3px solid black;
@@ -77,6 +81,89 @@ header img {
 #nav_menu ul li ul {
 	width: 20%;
 }
+
+/* the styles for the main content */
+main {
+	display: flex;
+	justify-content: space-between;
+}
+#right{
+	flex-basis: 30%;
+	order: 2;
+	padding: 0 2.5% 20px 2.5%;
+}
+/* the styles for the section */
+section {
+	flex-basis: 60%;
+	order: 1;
+	padding: 0 2.5% 20px 2.5%;
+}
+section h1 {
+	font-size: 150%;
+	padding: .5em 0 .25em 0;
+	margin: 0;
+}
+section h2 {
+	color: #800000;
+	font-size: 130%;
+	padding: .5em 0 .25em 0;
+}
+section p {
+	padding-bottom: .5em;
+}
+section blockquote {
+	padding: 0 2em;
+	font-style: italic;
+}
+section ul {
+	padding: 0 0 .25em 1.25em;
+	list-style-type: circle;
+}
+section li {
+	padding-bottom: .35em;
+}
+
+/* the styles for the article */
+article {
+	padding: .5em 0;
+	border-top: 2px solid #800000;
+}
+article h2 {
+	padding-top: 0;
+}
+article h3 {
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+article img {
+	float: right;
+	max-width: 40%;
+	min-width: 150px;
+	margin: .5em 0 1em 1em;
+	border: 1px solid black;
+}
+
+/* the styles for the aside */
+aside {
+	flex-basis: 30%;
+	order: 1;
+	padding: 0 0 20px 2.5%;
+}
+aside h2 {
+	color: #800000;
+	font-size: 130%;
+	padding: .5em 0 .25em 0;
+}
+
+aside h3 {
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+aside img {
+	padding-bottom: 1em;
+}
+
+/* the styles for the footer */
 footer {
 	background-color: #931420;
 	clear: both;
@@ -87,4 +174,55 @@ footer p {
 	color: white;
 	padding: 1em 0;
 }
+#mobile_menu {
+	display: none;
+}
 
+/* screen widths 768px to 959px */
+@media only screen and (max-width: 959px) {
+	section h1 { font-size: 135%; }
+	section h2, aside h2 { font-size: 120%; }
+}
+
+/* screen widths 480px to 767px */
+@media only screen and (max-width: 767px) {
+	header img { float: none; }
+	header {
+        display: flex;
+        text-align: center;
+    }
+    header, footer {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    header h2, header h3 { flex-basis: 100%; }
+    main { flex-direction: column; }
+	section, #left, #right {
+		width: 100%;
+		padding-right: 2.5%;
+	}
+	aside {
+	    order: 2;
+		padding-right: 2.5%;
+		width: 95%;
+	}
+	article img { max-width: 30%; }
+	#left #speakers {
+		column-count: 2;
+		column-gap: 1em;
+	}
+	#nav_menu {
+		display: none;
+	}
+	#mobile_menu {
+		display: block;
+	}
+	.slicknav_menu {
+		background-color: #800000 !important;
+	}
+}
+
+/* screen widths 479px and less */
+@media only screen and (max-width: 479px) {
+	body { font-size: 90%; }
+}
