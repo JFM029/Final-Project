@@ -36,9 +36,6 @@ header img {
 	float: left;
 	padding: 0 3.75%;
 }
-.shadow {
-	text-shadow: 2px 2px 2px #800000;
-}
 /* the styles for the navigation menu */
 #nav_menu ul {
 	display: flex;
