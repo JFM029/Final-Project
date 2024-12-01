@@ -34,10 +34,6 @@ header h3 {
 	font-size: 130%;
 	font-style: italic;
 }
-header img {
-	float: left;
-	padding: 0 3.75%;
-}
 /* the styles for the navigation menu */
 #nav_menu ul {
 	display: flex;
@@ -83,6 +79,12 @@ header img {
 #nav_menu ul li ul {
 	width: 20%;
 }
+
+/* the styles for the main content */
+main {
+	display: flex;
+	justify-content: space-between;
+}
 #right{
 	flex-basis: 50%;
 	order: 2;
@@ -91,6 +93,21 @@ header img {
 #right p{
 	padding-bottom: .5em;
 }
+#right img{
+	float: right;
+	max-width: 40%;
+	min-width: 90px;
+	margin: .5em 0 1em 1em;
+	border: 1px solid black;
+}
+#right ul li{
+	margin-top: 1.04%;
+}
+#right li{
+	margin-top: 1.04%;
+	margin-bottom: 1.04%
+}
+/* the styles for the section */
 section {
 	flex-basis: 50%;
 	order: 1;
@@ -109,6 +126,18 @@ section h2 {
 section p {
 	padding-bottom: .5em;
 }
+section blockquote {
+	padding: 0 2em;
+	font-style: italic;
+}
+section ul {
+	padding: 0 0 .25em 1.25em;
+	list-style-type: circle;
+}
+section li {
+	padding-bottom: .35em;
+}
+
 /* the styles for the article */
 article {
 	padding: .5em 0;
@@ -121,11 +150,14 @@ article h3 {
 	padding-bottom: .25em;
 }
 article img {
-	max-width: 30%;
-	min-width: 80px;
+	float: right;
+	max-width: 40%;
+	min-width: 100px;
 	margin: .5em 0 1em 1em;
 	border: 1px solid black;
 }
+
+/* the styles for the aside */
 
 /* the styles for the footer */
 footer {
@@ -190,4 +222,3 @@ footer p {
 @media only screen and (max-width: 479px) {
 	body { font-size: 90%; }
 }
-
