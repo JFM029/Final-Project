@@ -34,10 +34,6 @@ header h3 {
 	font-size: 130%;
 	font-style: italic;
 }
-header img {
-	float: left;
-	padding: 0 3.75%;
-}
 /* the styles for the navigation menu */
 #nav_menu ul {
 	display: flex;
