@@ -149,7 +149,7 @@ article h3 {
 	padding-bottom: .25em;
 }
 article img {
-	float: right;
+	float: none;
 	max-width: 40%;
 	min-width: 100px;
 	margin: .5em 0 1em 1em;
