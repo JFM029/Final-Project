@@ -1,1 +1,86 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	background-color: white;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	width: 98%;
+	max-width: 960px;
+	margin: 0 auto;
+	border: 3px solid transparent;
+	border-image: linear-gradient(to right, #ffdd57, #004e92) 1;
+	background-color: #fffded;
+}
+a:focus, a:hover {
+	font-style: italic;
+}
+/* the styles for the header */
+header {
+	padding: 1.5em 0 2em 0;
+	border-bottom: 3px solid black;
+	background: linear-gradient( to bottom, #000428, #004e92);
+}
+header h2 {
+	margin-left: 2.1%;
+	font-size: 175%;
+	color: #FFD700;
+}
+header h3 {
+	margin-left: 2.1%;
+	font-size: 130%;
+	font-style: italic;
+}
+header img {
+	float: left;
+	padding: 0 3.75%;
+}
+/* the styles for the navigation menu */
+#nav_menu ul {
+	display: flex;
+	flex-basis: 100%;
+	justify-content: space-between;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+#nav_menu ul li {
+	flex-basis: 20%;
+}
+#nav_menu ul li a {
+	display: block;
+	text-align: center;
+	padding: 1em 0;
+	text-decoration: none;
+	background-color: #1a1a1a;
+	color: white;
+	font-weight: bold;
+}
+#nav_menu a.current {
+	color: yellow;
+}
+#nav_menu a:hover{
+	color: #ffdd57;
+}
+#nav_menu ul ul {
+	width: 100%;
+	display: none;
+	position: absolute;
+	top: 100%;
+}
+#nav_menu ul li:hover > ul {
+	display: block;
+}
+#nav_menu > ul::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+#nav_menu ul li ul {
+	width: 20%;
+}
 
