@@ -99,7 +99,7 @@ main {
 }
 #right img{
 	float: right;
-	max-width: 20%;
+	max-width: 40%;
 	min-width: 90px;
 	margin: .5em 0 1em 1em;
 	border: 1px solid black;
