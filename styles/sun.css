@@ -91,6 +91,7 @@ main {
 	padding: 0 2.5% 20px 2.5%;
 }
 #right p{
+	margin-top: 1.04%;
 	padding-bottom: .5em;
 }
 #right img{
@@ -155,7 +156,6 @@ article img {
 	margin: .5em 0 1em 1em;
 	border: 1px solid black;
 }
-
 /* the styles for the aside */
 
 /* the styles for the footer */
