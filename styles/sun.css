@@ -121,8 +121,8 @@ article h3 {
 	padding-bottom: .25em;
 }
 article img {
-	max-width: 40%;
-	min-width: 100px;
+	max-width: 30%;
+	min-width: 80px;
 	margin: .5em 0 1em 1em;
 	border: 1px solid black;
 }
