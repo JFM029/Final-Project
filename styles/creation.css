@@ -149,8 +149,9 @@ article h3 {
 }
 article img {
 	float: right;
-	max-width: 20%;
+	max-width: 100%;
 	height: auto;
+	display: block;
 	margin: .5em 0 1em 1em;
 	border: 1px solid black;
 }
