@@ -83,6 +83,14 @@ header img {
 #nav_menu ul li ul {
 	width: 20%;
 }
+#right{
+	flex-basis: 50%;
+	order: 2;
+	padding: 0 2.5% 20px 2.5%;
+}
+#right p{
+	padding-bottom: .5em;
+}
 /* the styles for the article */
 article {
 	padding: .5em 0;
