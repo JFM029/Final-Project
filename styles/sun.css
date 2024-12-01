@@ -94,7 +94,6 @@ main {
 	padding-bottom: .5em;
 }
 #right img{
-	float: right;
 	max-width: 40%;
 	min-width: 90px;
 	margin: .5em 0 1em 1em;
