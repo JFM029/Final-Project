@@ -104,6 +104,13 @@ main {
 	margin: .5em 0 1em 1em;
 	border: 1px solid black;
 }
+#right ul li{
+	margin-top: .521%;
+}
+#right li{
+	margin-top: .521%;
+	margin-bottom: .521%
+}
 /* the styles for the section */
 section {
 	flex-basis: 50%;
