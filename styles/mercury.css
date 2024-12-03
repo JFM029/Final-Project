@@ -111,6 +111,19 @@ main {
 	flex-basis: 33%
 	order: 1;
 }
+#left h2{
+	font-size: 130%
+	padding: .5em 0 .25em 0;
+}
+#left p{
+	padding-bottom: .5em;
+}
+#left img{
+	max-width: 40%
+	min-widht: 100px;
+	margin: .5em 0 1em 1em;
+	border: 1px solid black;
+}
 /* the styles for the section */
 section {
 	flex-basis: 33%;
