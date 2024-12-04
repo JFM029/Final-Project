@@ -105,15 +105,15 @@ main {
 }
 #right li{
 	margin-top: 1.04%;
-	margin-bottom: 1.04%
+	margin-bottom: 1.04%;
 }
 #left{
-	flex-basis: 30%
+	flex-basis: 30%;
 	order: 1;
 	padding: 0 2.5% 20px 2.5%;
 }
 #left h2{
-	font-size: 130%
+	font-size: 130%;
 	padding: .5em 0 .25em 0;
 }
 #left p{
@@ -121,7 +121,7 @@ main {
 }
 #left img{
 	float: left;
-	max-width: 20%
+	max-width: 20%;
 	min-width: 100px;
 	margin: .5em 0 1em 1em;
 	border: 1px solid black;
