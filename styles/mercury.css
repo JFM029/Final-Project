@@ -120,7 +120,7 @@ main {
 }
 #left img{
 	max-width: 20%
-	min-widht: 100px;
+	min-widht: 70px;
 	margin: .5em 0 1em 1em;
 	border: 1px solid black;
 }
