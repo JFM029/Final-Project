@@ -119,6 +119,7 @@ main {
 	padding-bottom: .5em;
 }
 #left img{
+	float: left;
 	max-width: 20%
 	min-widht: 70px;
 	margin: .5em 0 1em 1em;
