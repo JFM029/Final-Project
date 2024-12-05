@@ -131,6 +131,7 @@ main {
 	margin: auto;
 }
 #left figcaption{
+	font-weight: bold;
 	padding: 0.208%;
 	text-align: center;
 }
