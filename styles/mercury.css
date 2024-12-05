@@ -135,7 +135,7 @@ main {
 #left figcaption{
 	font-weight: bold;
 	padding: 0.208%;
-	text-align: center;
+	text-align: left;
 }
 /* the styles for the section */
 section {
