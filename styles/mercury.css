@@ -126,16 +126,6 @@ main {
 	margin: .5em 1em 1em 1em;
 	border: 1px solid black;
 }
-#left figure{
-	display: flex;
-	padding: 0.416%;
-	margin: auto;
-}
-#left figcaption{
-	font-weight: bold;
-	padding: 0.208%;
-	text-align: left;
-}
 /* the styles for the section */
 section {
 	flex-basis: 30%;
