@@ -126,6 +126,10 @@ main {
 	margin: .5em 1em 1em 1em;
 	border: 1px solid black;
 }
+#left figcaption{
+	padding: .208%;
+	text-align: center;
+}
 /* the styles for the section */
 section {
 	flex-basis: 30%;
