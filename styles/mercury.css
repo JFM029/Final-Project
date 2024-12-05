@@ -126,8 +126,12 @@ main {
 	margin: .5em 1em 1em 1em;
 	border: 1px solid black;
 }
+#left figure{
+	padding: 0.416%;
+	margin: auto;
+}
 #left figcaption{
-	padding: .208%;
+	padding: 0.208%;
 	text-align: center;
 }
 /* the styles for the section */
