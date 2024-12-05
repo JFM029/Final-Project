@@ -127,6 +127,8 @@ main {
 	border: 1px solid black;
 }
 #left figure{
+	display: flex;
+	flex-flow: column;
 	padding: 0.416%;
 	margin: auto;
 }
