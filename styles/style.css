@@ -83,6 +83,31 @@ header img {
 #nav_menu ul li ul {
 	width: 20%;
 }
+#nav_list ul{
+	list-style-type: none;
+	margin-left: .1em;
+	margin-bottom: .2em;
+}
+#nav_list ul li{
+	width: 200px;
+	margin-bottom: .25em;
+	border: 2px solid black; 
+	box-shadow: 3px 3px 5px rgba(125, 0, 0, .7);
+	border-radius: 12px;
+	background-image: url("../images/right.jpg");
+	background-repeat: no-repeat;
+	background-position: 95% center;
+}
+#nav_list ul li a {
+	display: block;
+	padding: .5em 0 .5em 0.1em;
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+}
+#nav_list ul li a.current {
+	color: #800000;
+}
 
 /* the styles for the main content */
 main {
