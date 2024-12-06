@@ -94,6 +94,9 @@ main {
 	margin-top: 3.12%;
 	padding-bottom: .5em;
 }
+#right h2{
+	margin-top: 3.125%;
+}
 #right img{
 	max-width: 50%;
 	min-width: 100px;
