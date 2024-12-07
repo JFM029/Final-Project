@@ -92,7 +92,7 @@ header img {
 	width: 200px;
 	margin-bottom: .25em;
 	border: 2px solid black; 
-	box-shadow: 3px 3px 5px rgba(125, 0, 0, .7);
+	box-shadow: 3px 3px 5px rgba(0, 4, 40, .8), 0 6px 20px 0 rgba(0, 78, 146, 0.6);
 	border-radius: 12px;
 	background-image: url("../images/right.jpg");
 	background-repeat: no-repeat;
